@@ -1,0 +1,30 @@
+" Basic setting
+" --------------------------------------------------------------------------------
+set smartindent
+set autoindent
+set ignorecase
+set smartcase
+
+" 英字キーボード用
+" --------------------------------------------------------------------------------
+noremap ; :
+
+" Insert mode 時に Emacs っぽくする
+" --------------------------------------------------------------------------------
+imap <C-p> <Up>
+imap <C-n> <Down>
+imap <C-b> <Left>
+imap <C-f> <Right>
+imap <C-a> <C-o>0
+imap <C-e> <C-o>$
+imap <C-d> <ESC>xi
+imap <C-h> <BS>
+imap <C-k> <ESC>d$i
+imap <C-y> <esc>pa
+
+" 移動
+" --------------------------------------------------------------------------------
+nnoremap J 10j
+nnoremap K 10k
+vnoremap J 10j
+vnoremap K 10k
