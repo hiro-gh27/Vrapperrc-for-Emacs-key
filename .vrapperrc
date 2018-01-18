@@ -17,9 +17,8 @@ imap <C-b> <Left>
 imap <C-f> <Right>
 imap <C-a> <C-o>0
 imap <C-e> <C-o>$
-imap <C-d> <ESC>xi
+imap <C-d> <Esc><Right>xi
 imap <C-h> <BS>
-imap <C-k> <ESC>d$i
 imap <C-y> <esc>pa
 
 " 移動
